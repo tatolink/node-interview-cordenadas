@@ -1,7 +1,7 @@
 # Coordenadas CSV
 Proyecto de Coordenadas por ingreso de un Archivo CSV a MySQL
 
-El Proyecto esta Realizado en NodeJs con Express, el cual se divide en la parte de Cliente - Servidor con La Base de Datos, esta realizado e inspirado por esta fuente: [NodeJs Interview Test](https://api.predic8.de/shop/docs).
+El Proyecto esta Realizado en NodeJs con Express, el cual se divide en la parte de Cliente - Servidor con La Base de Datos, esta realizado e inspirado por esta fuente: [NodeJs Interview Test](https://github.com/leangasoftware/node-interview).
 
 ## `Cliente - Servidor`
 
@@ -38,7 +38,7 @@ Y para inciar el Priyecto se corre este comando:
 
 ### Informaciòn sobre la contruccion de los API
 
-Se genero en base a la lectura de un archivo "resource_accommodation.csv" mismo mencionado en [NodeJs Interview Test](https://api.predic8.de/shop/docs). el cual almacenamos la informacion JSON en Express creando asi nuestra propia libreria de Servicios e ingresandolo en nuestra base de datos en MySQL
+Se genero en base a la lectura de un archivo "resource_accommodation.csv" mismo mencionado en [NodeJs Interview Test](https://github.com/leangasoftware/node-interview). el cual almacenamos la informacion JSON en Express creando asi nuestra propia libreria de Servicios e ingresandolo en nuestra base de datos en MySQL
 
 Este proyecto se instalo las dependencias de mysql para la conexion a la base de datos y la lectura csv que se utilizara con la funcion createReadStream y son:
 
