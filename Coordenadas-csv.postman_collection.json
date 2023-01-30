@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "4e610a99-4a5c-4785-9ec0-bdb3f9440f8c",
+		"name": "Coordenadas-csv",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Read CSV e Insert Data BD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/import",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"import"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get CSV Informacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/read",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"read"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Informacion por Precio y Habitaciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/precio/400/2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"precio",
+						"400",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Distancia en KMs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/view/coordenadas/2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"view",
+						"coordenadas",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Informacion por Precio y Habitaciones en HTML",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/view/precio/400/2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"view",
+						"precio",
+						"400",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Distancia en KMs en HTML",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/coordenadas/2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"coordenadas",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:3000",
+			"type": "default"
+		}
+	]
+}
