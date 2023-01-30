@@ -1,7 +1,7 @@
 # Coordenadas CSV
 Proyecto de Coordenadas por ingreso de un Archivo CSV a MySQL
 
-El Proyecto esta Realizado en NodeJs con Express, el cual se divide en la parte de Cliente - Servidor con La Base de Datos, esta realizado e inspirado por esta fuente: [NodeJs Interview Test](https://github.com/leangasoftware/node-interview).
+El Proyecto esta Realizado en NodeJs con Express, el cual se divide en la parte de Cliente - Servidor con La Base de Datos, esta realizado e inspirado por esta fuente con la diferencia que el Ambiente de Base de Datos es sobre una Relaciona con MySQL y no la que sugiere con MongoDB que es no Relacional, este es el enlace de la Fuente en Respuesta con este Proyecto: [NodeJs Interview Test](https://github.com/leangasoftware/node-interview).
 
 ## `Cliente - Servidor`
 
